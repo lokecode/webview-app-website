@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Firebase Cloud Firestore Tutorial - Web</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <form>
+        <label for="userId">User ID</label><br>
+        <input type="text" name="userId" id="userId"><br>
+        <label for="firstName">url</label><br>
+        <input type="text" name="firstName" id="firstName"><br>
+        <label for="lastName">url picture</label><br>
+        <input type="text" name="lastName" id="lastName"><br>  
+        <label for="appName">app Name</label><br>
+        <input type="text" name="appName" id="appName"><br>
+        <button id="addBtn" class="btn waves-effect waves-light">Add</button>
+    </form>
+  </main>
+
+
+  <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-firestore.js"></script>
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script>
+  // Your web app's Firebase configuration
+   var config = {
+    apiKey: "AIzaSyDbeDHg1PEhcyOMILhq3FtMnU8bqboACFM",
+    authDomain: "fir-63078.firebaseapp.com",
+    databaseURL: "https://fir-63078-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "fir-63078",
+    storageBucket: "fir-63078.appspot.com",
+    messagingSenderId: "366356360960",
+    appId: "1:366356360960:web:cd9b637155e80f0c260de5"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(config);
+  </script>
+  <script src="index.js"></script>
+  
+  
+
+</body>z
+</html>
